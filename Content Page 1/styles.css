@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    text-shadow: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.info{
+    display: flex;
+    padding-top: 75px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title{
+    font-size: 60px;
+}
