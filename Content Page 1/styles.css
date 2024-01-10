@@ -1,17 +1,43 @@
-body{
-    background-color: aqua;
-    text-align: center;
-    text-shadow: 34px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff; 
 }
-.info{
-    display: flex;
-    padding-top: 75px;
-    align-items: center;
-    flex-direction: column;
 
+header {
+    background-color: #3399ff; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
 }
-.title{
-    font-size: 60px;
+
+.seccion-motricidad, .seccion-final {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.cuadro-texto {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3399ff;
+}
+
+.img {
+    font-size: 2em;
+    text-align: center;
+}
+
+.seccion-final h2 {
+    color: #ff4500; 
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
